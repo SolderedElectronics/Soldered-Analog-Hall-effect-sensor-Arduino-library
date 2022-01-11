@@ -1,7 +1,7 @@
 /**
  **************************************************
  *
- * @file        Generic-easyC-SOLDERED.h
+ * @file        Analog-Hall-effect-sensor-Soldered.h
  * @brief       Header file for sensor specific code.
  *
  *
@@ -9,22 +9,28 @@
  * @authors     @ soldered.com
  ***************************************************/
 
-#ifndef __SENSOR__
-#define __SENSOR__
+#ifndef _easyC_
+#define _easyC_
 
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
 
-class Sensor : public EASYC_SOLDERED_LIBS::EasyC
+class Hall_Sensor : public HALL_EFFECT_SENSOR_EASYC::EasyC
 {
   public:
-    Sensor(int _pin);
+    Hall_Sensor();
+    Hall_Sensor(int _pin);
+    uint16_t getValue(void);
+    float getMiliTeslas(void);
 
   protected:
     void initializeNative();
 
   private:
     int pin;
+    uint16_t value;
+    char raw[2];
+    int prescale = 1;
 };
 
 #endif

@@ -18,7 +18,7 @@
 #define ANALOG_READ_REG  0
 #define DIGITAL_READ_REG 1
 
-namespace EASYC_SOLDERED_LIBS
+namespace HALL_EFFECT_SENSOR_EASYC
 {
 
 class EasyC
@@ -46,6 +46,6 @@ class EasyC
     int readRegister(char regAddr, char a[], size_t n);
 };
 
-} // namespace EASYC_SOLDERED_LIBS
+} // namespace HALL_EFFECT_SENSOR_EASYC
 
 #endif
