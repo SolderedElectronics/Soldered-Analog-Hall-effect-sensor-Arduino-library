@@ -14,7 +14,6 @@
 
 Hall_Sensor::Hall_Sensor()
 {
-
 }
 
 /**
@@ -43,7 +42,7 @@ uint16_t Hall_Sensor::getValue()
     return value;
 }
 
-float Hall_Sensor:: getMiliTeslas()
+float Hall_Sensor::getMiliTeslas()
 {
     value = getValue();
     return 20.47 * (10 * (value / 1023.0) / 5.0 - 1);
