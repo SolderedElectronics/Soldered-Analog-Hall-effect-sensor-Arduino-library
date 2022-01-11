@@ -1,12 +1,13 @@
 /**
  **************************************************
  *
- * @file        Template for attiny_firmware
- * @brief       Fill in sensor specific code.
+ * @file        attiny_firmware for Slider Potentiometer
+ * @brief       This sensor sends position of slider on
+ *              potentiometer using I2C communication
  *
-
  *
- * @authors     @ soldered.com
+ *
+ * @authors     Goran Juric for Soldered.com
  ***************************************************/
 
 #include "easyC.h"
@@ -28,6 +29,7 @@ void loop()
 {
 }
 
+char lastEvent;
 
 void receiveEvent(int howMany)
 {
@@ -36,13 +38,18 @@ void receiveEvent(int howMany)
         char c = Wire.read();
     }
 
-    char c = Wire.read();
+    lastEvent = Wire.read();
 }
 
 void requestEvent()
 {
-    int n = 5;
-
-    char a[n];
-    Wire.write(a, n);
+    int c = 0;
+    char a[2];
+    if (lastEvent==0)
+    {
+      c = analogRead(PA4);
+      a[1] = c >> 8;
+      a[0] = c & 0xFF;
+      Wire.write(a, 2);
+    }
 }
