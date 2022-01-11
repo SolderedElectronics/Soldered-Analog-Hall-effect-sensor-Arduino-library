@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a64631d9b1f7d05f32f85b547097e83b5',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readregister_2',['readRegister',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a759023180eea23f55cbb24cbd89ec3b8',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['pin_0',['pin',['../class_hall___sensor.html#ac0a606efba6e304d1de06e42605860f9',1,'Hall_Sensor']]],
+  ['prescale_1',['prescale',['../class_hall___sensor.html#a36a1de42cf93a9b617f2d483241720c8',1,'Hall_Sensor']]]
 ];

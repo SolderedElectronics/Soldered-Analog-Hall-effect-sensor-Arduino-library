@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['initializenative_0',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ac5e452bb3e1a549f4947bac4b5fe430e',1,'EASYC_SOLDERED_LIBS::EasyC::initializeNative()']]]
+  ['getmiliteslas_0',['getMiliTeslas',['../class_hall___sensor.html#a97c79dd961571c52abade23f424f6d25',1,'Hall_Sensor']]],
+  ['getvalue_1',['getValue',['../class_hall___sensor.html#a81798edbd50355278051cd4fdb7108d0',1,'Hall_Sensor']]]
 ];

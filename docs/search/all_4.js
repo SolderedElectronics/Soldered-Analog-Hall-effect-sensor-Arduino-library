@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['generic_2deasyc_2dsoldered_2ecpp_0',['Generic-easyC-SOLDERED.cpp',['../_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['generic_2deasyc_2dsoldered_2eh_1',['Generic-easyC-SOLDERED.h',['../_generic-easy_c-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
+  ['getmiliteslas_0',['getMiliTeslas',['../class_hall___sensor.html#a97c79dd961571c52abade23f424f6d25',1,'Hall_Sensor']]],
+  ['getvalue_1',['getValue',['../class_hall___sensor.html#a81798edbd50355278051cd4fdb7108d0',1,'Hall_Sensor']]]
 ];

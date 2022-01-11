@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_0',['native',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ab4a677cb6435085086c9b532a9d27b5e',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['native_0',['native',['../class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#af6203d82b6b121479c8da6f8da42c488',1,'HALL_EFFECT_SENSOR_EASYC::EasyC']]]
 ];

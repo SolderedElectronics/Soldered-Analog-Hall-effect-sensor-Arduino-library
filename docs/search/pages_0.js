@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['analog_20hall_20effect_20sensor_20arduino_20library_0',['Analog hall effect sensor Arduino library',['../index.html',1,'']]]
 ];

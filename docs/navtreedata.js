@@ -24,8 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "16x2 easyC LCD Library", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", null ],
+  [ "Analog hall effect sensor", "index.html", [
+    [ "Analog hall effect sensor Arduino library", "index.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -47,7 +47,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
+"_analog-_hall-effect-sensor-_soldered_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
