@@ -22,6 +22,7 @@ class Hall_Sensor : public HALL_EFFECT_SENSOR_EASYC::EasyC
     Hall_Sensor(int _pin);
     uint16_t getValue(void);
     float getMiliTeslas(void);
+    bool Available(void);
 
   protected:
     void initializeNative();

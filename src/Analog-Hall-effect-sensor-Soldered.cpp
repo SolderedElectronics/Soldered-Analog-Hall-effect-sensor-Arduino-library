@@ -14,7 +14,6 @@
 
 Hall_Sensor::Hall_Sensor()
 {
-
 }
 
 /**
@@ -36,6 +35,11 @@ void Hall_Sensor::initializeNative()
     pinMode(pin, INPUT);
 }
 
+/**
+ * @brief                   This function gets raw value of meauserement 
+ * 
+ * @return                  Raw value of measurement
+ */
 uint16_t Hall_Sensor::getValue()
 {
     readRegister(ANALOG_READ_REG, raw, 2 * sizeof(uint8_t));
@@ -43,8 +47,25 @@ uint16_t Hall_Sensor::getValue()
     return value;
 }
 
-float Hall_Sensor:: getMiliTeslas()
+/**
+ * @brief                   This function calculates value of magnetic flux in militeslas,
+ *                          normally you should get about 0.05 mT
+ * 
+ * @return                  Value of magnetic flux in militeslas
+ */
+float Hall_Sensor::getMiliTeslas()
 {
     value = getValue();
     return 20.47 * (10 * (value / 1023.0) / 5.0 - 1);
+}
+
+/**
+ * @brief                   Function which checks if I2C device is responding
+ *
+ * @return                  1 if device is responding, 0 if not
+ */
+bool Hall_Sensor::Available()
+{
+    return !(
+        sendAddress(0X01)); // checking if address is succesfully sent, if not device is not ready to communicate
 }
