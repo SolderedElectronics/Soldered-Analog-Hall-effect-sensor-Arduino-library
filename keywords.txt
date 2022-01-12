@@ -10,8 +10,13 @@
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin		KEYWORD2
+gwtValue	KEYWORD2
+getMiliTeslas	KEYWORD2
+Available	KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
 ##################################################
+
+Hall_Sensor	LITERAL1
