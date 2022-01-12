@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hall_5fsensor_0',['Hall_Sensor',['../class_hall___sensor.html#a11a938d80e5345deaaa421f71ee7e090',1,'Hall_Sensor::Hall_Sensor()'],['../class_hall___sensor.html#a7f889974b5fc107d762bb23326556c62',1,'Hall_Sensor::Hall_Sensor(int _pin)']]]
+  ['getmiliteslas_0',['getMiliTeslas',['../class_hall___sensor.html#a97c79dd961571c52abade23f424f6d25',1,'Hall_Sensor']]],
+  ['getvalue_1',['getValue',['../class_hall___sensor.html#a81798edbd50355278051cd4fdb7108d0',1,'Hall_Sensor']]]
 ];

@@ -107,9 +107,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7f889974b5fc107d762bb23326556c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor specific native constructor.  <a href="class_hall___sensor.html#a7f889974b5fc107d762bb23326556c62">More...</a><br /></td></tr>
 <tr class="separator:a7f889974b5fc107d762bb23326556c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81798edbd50355278051cd4fdb7108d0"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall___sensor.html#a81798edbd50355278051cd4fdb7108d0">getValue</a> (void)</td></tr>
+<tr class="memdesc:a81798edbd50355278051cd4fdb7108d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function gets raw value of meauserement.  <a href="class_hall___sensor.html#a81798edbd50355278051cd4fdb7108d0">More...</a><br /></td></tr>
 <tr class="separator:a81798edbd50355278051cd4fdb7108d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97c79dd961571c52abade23f424f6d25"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall___sensor.html#a97c79dd961571c52abade23f424f6d25">getMiliTeslas</a> (void)</td></tr>
+<tr class="memdesc:a97c79dd961571c52abade23f424f6d25"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates value of magnetic flux in militeslas, normally you should get about 0.05 mT.  <a href="class_hall___sensor.html#a97c79dd961571c52abade23f424f6d25">More...</a><br /></td></tr>
 <tr class="separator:a97c79dd961571c52abade23f424f6d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab83e46cbcaa6796a682a80fa2734366e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall___sensor.html#ab83e46cbcaa6796a682a80fa2734366e">Available</a> (void)</td></tr>
+<tr class="memdesc:ab83e46cbcaa6796a682a80fa2734366e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function which checks if I2C device is responding.  <a href="class_hall___sensor.html#ab83e46cbcaa6796a682a80fa2734366e">More...</a><br /></td></tr>
+<tr class="separator:ab83e46cbcaa6796a682a80fa2734366e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html">HALL_EFFECT_SENSOR_EASYC::EasyC</a></td></tr>
 <tr class="memitem:a4b1cc5962d82a4843b6779abb38b8b55 inherit pub_methods_class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#a4b1cc5962d82a4843b6779abb38b8b55">EasyC</a> ()</td></tr>
 <tr class="memdesc:a4b1cc5962d82a4843b6779abb38b8b55 inherit pub_methods_class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for easyC version.  <a href="class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#a4b1cc5962d82a4843b6779abb38b8b55">More...</a><br /></td></tr>
@@ -210,6 +215,27 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab83e46cbcaa6796a682a80fa2734366e" name="ab83e46cbcaa6796a682a80fa2734366e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab83e46cbcaa6796a682a80fa2734366e">&#9670;&nbsp;</a></span>Available()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hall_Sensor::Available </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function which checks if I2C device is responding. </p>
+<dl class="section return"><dt>Returns</dt><dd>1 if device is responding, 0 if not </dd></dl>
+
+</div>
+</div>
 <a id="a97c79dd961571c52abade23f424f6d25" name="a97c79dd961571c52abade23f424f6d25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97c79dd961571c52abade23f424f6d25">&#9670;&nbsp;</a></span>getMiliTeslas()</h2>
 
@@ -225,6 +251,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This function calculates value of magnetic flux in militeslas, normally you should get about 0.05 mT. </p>
+<dl class="section return"><dt>Returns</dt><dd>Value of magnetic flux in militeslas </dd></dl>
 
 </div>
 </div>
@@ -243,6 +272,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This function gets raw value of meauserement. </p>
+<dl class="section return"><dt>Returns</dt><dd>Raw value of measurement </dd></dl>
 
 </div>
 </div>
@@ -376,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_hall___sensor.html">Hall_Sensor</a></li>
         <li class="footer">
-            Generated on Tue Jan 11 2022 15:30:54 for Analog hall effect sensor by <a href="http://www.doxygen.org/index.html">
+            Generated on Wed Jan 12 2022 08:14:04 for Analog hall effect sensor by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.2.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
