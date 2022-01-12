@@ -6,6 +6,8 @@
 # Datatypes (KEYWORD1)
 ##################################################
 
+Analog_Hall_Sensor	KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
@@ -19,4 +21,3 @@ Available	KEYWORD2
 # Constants (LITERAL1)
 ##################################################
 
-Hall_Sensor	LITERAL1
