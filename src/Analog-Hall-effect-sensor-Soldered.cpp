@@ -36,8 +36,8 @@ void Hall_Sensor::initializeNative()
 }
 
 /**
- * @brief                   This function gets raw value of meauserement 
- * 
+ * @brief                   This function gets raw value of meauserement
+ *
  * @return                  Raw value of measurement
  */
 uint16_t Hall_Sensor::getValue()
@@ -50,7 +50,7 @@ uint16_t Hall_Sensor::getValue()
 /**
  * @brief                   This function calculates value of magnetic flux in militeslas,
  *                          normally you should get about 0.05 mT
- * 
+ *
  * @return                  Value of magnetic flux in militeslas
  */
 float Hall_Sensor::getMiliTeslas()
@@ -66,6 +66,5 @@ float Hall_Sensor::getMiliTeslas()
  */
 bool Hall_Sensor::Available()
 {
-    return !(
-        sendAddress(0X01)); // checking if address is succesfully sent, if not device is not ready to communicate
+    return !(sendAddress(0X01)); // checking if address is succesfully sent, if not device is not ready to communicate
 }
