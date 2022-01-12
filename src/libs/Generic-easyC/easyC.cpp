@@ -11,7 +11,7 @@
 
 #include "easyC.h"
 
-namespace HALL_EFFECT_SENSOR_EASYC
+namespace ANALOG_HALL_EFFECT_SENSOR_EASYC
 {
 
 /**
@@ -117,4 +117,4 @@ int EasyC::sendData(const uint8_t *a, int n)
     return err = Wire.endTransmission();
 }
 
-} // namespace HALL_EFFECT_SENSOR_EASYC
+} // namespace ANALOG_HALL_EFFECT_SENSOR_EASYC

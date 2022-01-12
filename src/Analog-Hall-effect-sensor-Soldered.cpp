@@ -12,7 +12,7 @@
 
 #include "Analog-Hall-effect-sensor-Soldered.h"
 
-Hall_Sensor::Hall_Sensor()
+Analog_Hall_Sensor::Analog_Hall_Sensor()
 {
 }
 
@@ -21,7 +21,7 @@ Hall_Sensor::Hall_Sensor()
  *
  * @param int _pin          Example parameter.
  */
-Hall_Sensor::Hall_Sensor(int _pin)
+Analog_Hall_Sensor::Analog_Hall_Sensor(int _pin)
 {
     pin = _pin;
     native = 1;
@@ -30,7 +30,7 @@ Hall_Sensor::Hall_Sensor(int _pin)
 /**
  * @brief                   Overloaded function for virtual in base class to initialize sensor specific.
  */
-void Hall_Sensor::initializeNative()
+void Analog_Hall_Sensor::initializeNative()
 {
     pinMode(pin, INPUT);
 }
@@ -40,7 +40,7 @@ void Hall_Sensor::initializeNative()
  * 
  * @return                  Raw value of measurement
  */
-uint16_t Hall_Sensor::getValue()
+uint16_t Analog_Hall_Sensor::getValue()
 {
     readRegister(ANALOG_READ_REG, raw, 2 * sizeof(uint8_t));
     value = raw[0] | (raw[1]) << 8;
@@ -53,7 +53,7 @@ uint16_t Hall_Sensor::getValue()
  * 
  * @return                  Value of magnetic flux in militeslas
  */
-float Hall_Sensor::getMiliTeslas()
+float Analog_Hall_Sensor::getMiliTeslas()
 {
     value = getValue();
     return 20.47 * (10 * (value / 1023.0) / 5.0 - 1);
@@ -64,7 +64,7 @@ float Hall_Sensor::getMiliTeslas()
  *
  * @return                  1 if device is responding, 0 if not
  */
-bool Hall_Sensor::Available()
+bool Analog_Hall_Sensor::Available()
 {
     return !(
         sendAddress(0X01)); // checking if address is succesfully sent, if not device is not ready to communicate

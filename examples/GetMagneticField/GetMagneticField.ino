@@ -2,10 +2,10 @@
  **************************************************
  *
  * @file        Read_value.ino
- * @brief       Example for using the analog read functions for Slider potentiometer with easyC
+ * @brief       Example for using the analog read functions for analog hall sensor with easyC
  *
  *
- *	product: www.solde.red/333131
+ *	product: www.solde.red/333018
  *
  * @authors     Goran Juric for Soldered.com
  ***************************************************/
@@ -13,7 +13,7 @@
 #include "Analog-Hall-effect-sensor-Soldered.h"
 
 // Declare the sensor object
-Hall_Sensor hall;
+Analog_Hall_Sensor hall;
 
 void setup()
 {

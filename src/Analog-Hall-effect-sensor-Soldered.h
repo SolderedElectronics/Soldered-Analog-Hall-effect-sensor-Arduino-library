@@ -15,11 +15,11 @@
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
 
-class Hall_Sensor : public HALL_EFFECT_SENSOR_EASYC::EasyC
+class Analog_Hall_Sensor : public ANALOG_HALL_EFFECT_SENSOR_EASYC::EasyC
 {
   public:
-    Hall_Sensor();
-    Hall_Sensor(int _pin);
+    Analog_Hall_Sensor();
+    Analog_Hall_Sensor(int _pin);
     uint16_t getValue(void);
     float getMiliTeslas(void);
     bool Available(void);
