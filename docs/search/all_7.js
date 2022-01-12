@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['native_0',['native',['../class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#af6203d82b6b121479c8da6f8da42c488',1,'HALL_EFFECT_SENSOR_EASYC::EasyC']]]
+  ['pin_0',['pin',['../class_analog___hall___sensor.html#abe1331d61b95c7aa5ad0c09e79ff2a6e',1,'Analog_Hall_Sensor']]],
+  ['prescale_1',['prescale',['../class_analog___hall___sensor.html#ace865ebf5aec208bc0063b7c3d7133e1',1,'Analog_Hall_Sensor']]]
 ];

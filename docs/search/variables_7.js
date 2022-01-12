@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_0',['value',['../class_hall___sensor.html#a597dc3dd9181c96391e18f542369f410',1,'Hall_Sensor']]]
+  ['value_0',['value',['../class_analog___hall___sensor.html#a8d3d41a6aad5ced5b79cc8ad2030291a',1,'Analog_Hall_Sensor']]]
 ];

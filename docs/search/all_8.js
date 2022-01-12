@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['pin_0',['pin',['../class_hall___sensor.html#ac0a606efba6e304d1de06e42605860f9',1,'Hall_Sensor']]],
-  ['prescale_1',['prescale',['../class_hall___sensor.html#a36a1de42cf93a9b617f2d483241720c8',1,'Hall_Sensor']]]
+  ['raw_0',['raw',['../class_analog___hall___sensor.html#a6ca6cc8734ba0df9b7bcc651840be7e6',1,'Analog_Hall_Sensor']]],
+  ['readdata_1',['readData',['../class_a_n_a_l_o_g___h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#a08c83e51c32ceda2d57401cb7140d5b4',1,'ANALOG_HALL_EFFECT_SENSOR_EASYC::EasyC']]],
+  ['readme_2emd_2',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readregister_3',['readRegister',['../class_a_n_a_l_o_g___h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#a2f1dba076cec86b76cea001272365a33',1,'ANALOG_HALL_EFFECT_SENSOR_EASYC::EasyC']]]
 ];

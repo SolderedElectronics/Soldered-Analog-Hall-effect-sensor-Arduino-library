@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html',1,'HALL_EFFECT_SENSOR_EASYC']]]
+  ['analog_5fhall_5fsensor_0',['Analog_Hall_Sensor',['../class_analog___hall___sensor.html',1,'']]]
 ];

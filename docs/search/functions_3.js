@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['getmiliteslas_0',['getMiliTeslas',['../class_hall___sensor.html#a97c79dd961571c52abade23f424f6d25',1,'Hall_Sensor']]],
-  ['getvalue_1',['getValue',['../class_hall___sensor.html#a81798edbd50355278051cd4fdb7108d0',1,'Hall_Sensor']]]
+  ['getmiliteslas_0',['getMiliTeslas',['../class_analog___hall___sensor.html#a89d8fd5c2b9a977ec8bb01c84a9ce19b',1,'Analog_Hall_Sensor']]],
+  ['getvalue_1',['getValue',['../class_analog___hall___sensor.html#a53e51ac7deec1a71483df9a2aa7c1e59',1,'Analog_Hall_Sensor']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['pin_0',['pin',['../class_hall___sensor.html#ac0a606efba6e304d1de06e42605860f9',1,'Hall_Sensor']]],
-  ['prescale_1',['prescale',['../class_hall___sensor.html#a36a1de42cf93a9b617f2d483241720c8',1,'Hall_Sensor']]]
+  ['pin_0',['pin',['../class_analog___hall___sensor.html#abe1331d61b95c7aa5ad0c09e79ff2a6e',1,'Analog_Hall_Sensor']]],
+  ['prescale_1',['prescale',['../class_analog___hall___sensor.html#ace865ebf5aec208bc0063b7c3d7133e1',1,'Analog_Hall_Sensor']]]
 ];
