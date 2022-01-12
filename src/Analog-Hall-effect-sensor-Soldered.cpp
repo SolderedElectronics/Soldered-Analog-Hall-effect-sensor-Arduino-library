@@ -42,8 +42,15 @@ void Analog_Hall_Sensor::initializeNative()
  */
 uint16_t Analog_Hall_Sensor::getValue()
 {
-    readRegister(ANALOG_READ_REG, raw, 2 * sizeof(uint8_t));
-    value = raw[0] | (raw[1]) << 8;
+    if(native)
+    {
+        value=analogRead(pin);
+    }
+    else
+    {
+        readRegister(ANALOG_READ_REG, raw, 2 * sizeof(uint8_t));
+        value = raw[0] | (raw[1]) << 8;
+    }
     return value;
 }
 
