@@ -42,9 +42,9 @@ void Analog_Hall_Sensor::initializeNative()
  */
 uint16_t Analog_Hall_Sensor::getValue()
 {
-    if(native)
+    if (native)
     {
-        value=analogRead(pin);
+        value = analogRead(pin);
     }
     else
     {
