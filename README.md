@@ -5,7 +5,8 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [Analog hall effect sensor](https://www.solde.red/333018)                                                            |
+| [Hall effect sensor with analog output](https://www.solde.red/333017)                                                            |
+| [Analog hall effect sensor with easyC](https://www.solde.red/333018)                                                            |
 
 Analog hall effect sensor compliant with [easyC ecosystem](https://www.soldered.com/easyC). 
 
