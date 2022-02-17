@@ -13,7 +13,7 @@
 #define _easyC_
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.h"
+#include "libs/Generic-easyC/easyC.hpp"
 
 class Analog_Hall_Sensor : public ANALOG_HALL_EFFECT_SENSOR_EASYC::EasyC
 {
