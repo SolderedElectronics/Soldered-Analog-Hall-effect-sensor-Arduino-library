@@ -9,8 +9,8 @@
  * @authors     Goran Juric @ soldered.com
  ***************************************************/
 
-#ifndef __EASYC_LIBRARY__
-#define __EASYC_LIBRARY__
+#ifndef __ANALOG_HALL_EFFECT__
+#define __ANALOG_HALL_EFFECT__
 
 #include "Arduino.h"
 #include "Wire.h"
