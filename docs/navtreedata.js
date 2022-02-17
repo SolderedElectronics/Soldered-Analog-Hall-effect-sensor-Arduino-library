@@ -26,9 +26,6 @@ var NAVTREE =
 [
   [ "Analog hall effect sensor", "index.html", [
     [ "Analog hall effect sensor Arduino library", "index.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

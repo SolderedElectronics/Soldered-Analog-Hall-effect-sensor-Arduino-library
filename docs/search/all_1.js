@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_a_n_a_l_o_g___h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#aa5240f61aedfcfdded945f8b98075598',1,'ANALOG_HALL_EFFECT_SENSOR_EASYC::EasyC::begin()'],['../class_a_n_a_l_o_g___h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#a72987c907c8340a7c338cd20bd45fffe',1,'ANALOG_HALL_EFFECT_SENSOR_EASYC::EasyC::begin(uint8_t _address)']]],
-  ['begindone_1',['beginDone',['../class_a_n_a_l_o_g___h_a_l_l___e_f_f_e_c_t___s_e_n_s_o_r___e_a_s_y_c_1_1_easy_c.html#ab671846a217aacfcb3a60a31545fd500',1,'ANALOG_HALL_EFFECT_SENSOR_EASYC::EasyC']]]
+  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]],
+  ['begindone_1',['beginDone',['../class_easy_c.html#a2f55de657a84e73edda23dae91d30436',1,'EasyC']]]
 ];
