@@ -2,13 +2,20 @@
  **************************************************
  *
  * @file        Read_value.ino
- * @brief       Example for using the analog read functions for analog hall sensor with easyC
+ * @brief       Example for using the analog read functions for analog hall sensor
  *
  *
  *	product: www.solde.red/333018
  *
  * @authors     Goran Juric for Soldered.com
  ***************************************************/
+
+//Connecting diagram
+//Breakout      Arduino
+//|-------------|
+//OUT-----------A0
+//GND-----------GND
+//VCC-----------5V
 
 #include "Analog-Hall-effect-sensor-Soldered.h"
 
